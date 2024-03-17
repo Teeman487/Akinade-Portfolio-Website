@@ -258,6 +258,9 @@ main {
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eece1a;
     color: #000; }
+    .btn-light{
+     height:min-content;
+    }
 
 .btn-dark {
   background: black;
