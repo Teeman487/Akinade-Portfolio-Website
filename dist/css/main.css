@@ -333,9 +333,12 @@ main {
       height: 150px; } */
 
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3 job4 job5 job6';
-    grid-template-columns: 1fr; }
-  .projects {
+    display: grid;
+      grid-gap: 30px;
+    grid-template-areas: 'bioimage bio bio bio bio bio' 'job1 job2 job3 job4 job5 job6';
+    grid-template-columns:repeat(6, 1fr); }
+
+ .projects {
     grid-template-columns: repeat(2, 1fr); } 
   }
 /* .about-info {
